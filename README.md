@@ -1,5 +1,5 @@
 # Snake
-Classic snake game
+Classic snake web flash game
 
 Revisited with custom graphics and ability to view the leaderboard locally 
 
