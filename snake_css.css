@@ -1,0 +1,27 @@
+/* Impostazioni di base per il body */
+body {
+  display: flex; /* Imposta la visualizzazione del contenuto in un layout flessibile */
+  justify-content: center; /* Allinea gli elementi lungo l'asse orizzontale al centro */
+  align-items: center; /* Allinea gli elementi lungo l'asse verticale al centro */
+  height: 100vh; /* Imposta l'altezza del body al 100% della viewport height */
+  background-color: #222; /* Imposta il colore di sfondo */
+  margin: 0; /* Rimuove il margine predefinito */
+  font-family: "Arial", sans-serif; /* Imposta il tipo di carattere */
+  color: #fff; /* Imposta il colore del testo */
+}
+
+/* Stile del canvas di gioco */
+canvas {
+  border: 1px solid #fff; /* Aggiunge un bordo al canvas */
+}
+
+/* Stile del punteggio */
+#score {
+  margin-top: 5px; /* Aggiunge un margine superiore di 5px */
+  font-size: 24px; /* Imposta la dimensione del carattere a 24px */
+}
+
+/* Stile del pulsante "Play" al passaggio del mouse */
+#playButton:hover {
+  background-color: #45a049; /* Imposta il colore di sfondo al passaggio del mouse */
+}
