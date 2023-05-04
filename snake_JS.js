@@ -9,6 +9,14 @@ style.innerHTML = `
     margin: 5px 0;
     font-family: 'Press Start 2P', cursive;
   }
+
+  #scoresPopup {
+    box-sizing: border-box;
+  }
+
+  #scoresPopup ol {
+    padding-left: 20px;
+  }
 `;
 
 document.head.appendChild(style);
@@ -329,7 +337,7 @@ function displayScores(scores) {
   popup.style.backgroundColor = "rgba(0, 0, 0, 0.9)";
   popup.style.padding = "20px";
   popup.style.borderRadius = "20px"; // Aumenta il borderRadius per angoli più arrotondati
-  popup.style.width = "80%";
+  popup.style.width = "100%";
   popup.style.maxWidth = "500px";
   popup.style.textAlign = "center";
 
@@ -364,6 +372,7 @@ function displayScores(scores) {
 
   // Crea elenco delle ultime 10 partite
   const lastTenGamesList = document.createElement("ol");
+  lastTenGamesList.style.marginTop = "20px";
   lastTenGamesList.innerHTML = "<strong>Ultime 10 partite:</strong>";
   const lastTenGames = scores.slice(-10);
   lastTenGames.forEach((score) => {
