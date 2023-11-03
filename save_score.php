@@ -2,9 +2,9 @@
 header('Content-Type: application/json');
 
 // Configura le informazioni del database qui
-$db_host = 'localhost:3306';
-$db_username = 'slen';
-$db_password = 'inlineskater94';
+$db_host = 'localhost:***';
+$db_username = '******';
+$db_password = '*************';
 $db_name = 'admin_snake';
 
 $conn = new mysqli($db_host, $db_username, $db_password, $db_name);
